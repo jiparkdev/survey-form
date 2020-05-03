@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.form-section {
+  background-color: #eeeeee;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+#title {
+  font-weight: 900;
+  font-style: italic;
+}
+
+#description {
+  font-weight: 300;
+}
+
+.field {
+  margin-top: 2rem;
+}
+
+#submit {
+  margin-top: 1rem;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+}
+
+#story {
+  width: 100%;
+}
